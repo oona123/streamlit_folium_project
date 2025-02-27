@@ -6,8 +6,8 @@ from scipy.signal import butter, filtfilt
 from scipy.fft import fft, fftfreq
 import folium
 
-accel_data = "https://raw.githubusercontent.com/oona123/streamlit_folium_project/refs/heads/main/Linear%20Accelerometer.csv"
-gps_data = "https://raw.githubusercontent.com/oona123/streamlit_folium_project/refs/heads/main/Location.csv"
+accel_data = "https://raw.githubusercontent.com/oona123/streamlit_folium_project/main/Linear%20Accelerometer.csv"
+gps_data = "https://raw.githubusercontent.com/oona123/streamlit_folium_project/main/Location.csv"
 
 st.title("Liikunnan analyysi ja visualisointi")
 st.write("Tässä projektissa analysoimme kävelyliikettä kiihtyvyys- ja GPS-datan avulla.")
