@@ -60,6 +60,7 @@ ax.grid(axis='y')
 ax.legend()
 st.pyplot(fig)
 
+#karttakuva ja kuljettu reitti
 route = list(zip(gps_data["Latitude (°)"], gps_data["Longitude (°)"]))
 m = folium.Map(location=[gps_data["Latitude (°)"].mean(), gps_data["Longitude (°)"].mean()], zoom_start=16)
 folium.PolyLine(route, color="blue", weight=3,opacity=1).add_to(m)
