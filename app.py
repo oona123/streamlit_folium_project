@@ -19,7 +19,7 @@ average_speed = 1.62
 distance_travelled = 332.08
 stride_length = 0.87
 
-#print values
+#tulostetaan tiedot
 st.write("#### Lasketut tiedot:")
 st.write(f"- **Askelmäärä suodatetusta kiihtyvyysdatasta**: {step_count_filtered} askelta")
 st.write(f"- **Askelmäärä Fourier-analyysin perusteella**: {step_count_fourier} askelta")
